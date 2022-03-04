@@ -1,0 +1,326 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;   
+}
+ol, ul {
+	list-style: none;
+    
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+::before,
+::after{
+    box-sizing: border-box;
+}
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center{
+    display: flex;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to right, rgb(66,130,198,0.7),rgb(139,242,148,0.7)),url(../assets/home-bg.jpg)50% 50% no-repeat;
+    background-size: cover;
+}
+.head{
+    padding-top: 20px;
+}
+h1{
+    font-size: 34px;
+    color: white;
+    font-weight: 800;
+}
+.menu a{
+    text-decoration: none;
+    color: white ;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.menu{
+    padding-right: 320px;
+}
+.social a{
+    color: white;
+    padding-right: 10px;
+}
+.social button{
+    background-color: rgb(207,55,50);
+    border-radius: 12px;
+    color: white;
+}
+.about{
+    margin-top: 120px;
+}
+.col{
+    width: 35%;
+}
+h2{
+    font-size: 40px;
+    color: white;
+}
+.intro {
+    margin-top: 20px;
+}
+.intro button{
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 12px;
+    color: white;
+    border: 1px solid white;
+    font-size: 10px;
+}
+.intro address{
+    padding: 15px;
+    margin-right: 5px;
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+}
+.youtube{
+    width: 45%;
+    margin-top: 40px;
+    padding: 10px;
+}
+.box{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(216,216,216);
+    margin-left: 5px;
+    
+}
+.col1{
+    width: 30%;
+    margin-top: 40px;
+}
+h3{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 5px;
+}
+.col1 p{
+    font-size: 15px;
+    padding: 5px;
+    line-height: 1.5;
+    color: rgb(190, 190, 190);
+    font-weight: 700px;
+}
+.col2{
+    width: 30%;
+    margin-top: 50px;
+}
+.line1{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    width: 85%;
+}
+.line2{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    width: 90%;
+}
+.line3{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    width: 75%;
+}
+.line4{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    width: 70%;
+}
+.col3{
+    width: 30%;
+    margin-top: 50px;
+}
+.col3 img{
+    width: 300px;
+    height: 300px;
+}
+.blog{
+    background-color: #EFEFEF;
+}
+.blog h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.blog .center{
+    justify-content: center;
+}
+.blog-img{
+    width: 50%;
+    margin-top: 40px;
+}
+.content address{
+    color: red;
+    padding: 5px;
+    margin: 30px auto; 
+}
+h4{
+    font-size: 24px;
+}
+.content p{
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.content{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    padding-left: 10px;
+    
+}
+.content button{
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.work h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.work .center{
+    justify-content: center;
+}
+.img img{
+    margin: 20px;  
+}
+.more{
+    width: 100%;
+    background:linear-gradient(to right,#1A7ADF,#7CEF67);
+    padding-top: 5px;
+}
+.detail{
+    margin-top: 40px;
+}
+.detail h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.detail .center{
+    justify-content: center;
+}
+.detail-con{
+    margin-top: 40px;
+}
+.contact{
+    width: 250px;
+    height: 20px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.contact strong{
+    padding: 5px;
+    color: rgb(175, 175, 175);
+    font-weight: 100;
+}
+.req{
+    width: 520px;
+    height: 80px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.req strong{
+    padding: 5px;
+    color: rgb(175, 175, 175);
+    font-weight: 100;
+}
+.detail-con button{
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+}
+.detail-con .center{
+    justify-content: left;
+}
+.map iframe{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.map{
+    margin-right: 150px;
+}
+footer{
+    padding-top: 20px;
+    background-color: black;
+}
+footer .flex{
+    align-items: flex-start;
+}
+.subcol1{
+    width: 40%;
+    line-height: 1.5;
+}
+.subcol1 h3{
+    color: white;
+}
+.subcol1 p{
+    color: white;
+    margin-left: 5px;
+}
+.subcol2{
+    width: 20%;
+    line-height: 1.5;
+}
+.subcol2 h3{
+    color: white;
+}
+.subcol2 p{
+    color: white;
+    margin-left: 5px;
+}
+.subcol2 address{
+    color: white;
+    margin-left: 5px;
+
+}
